@@ -1,0 +1,52 @@
+body{
+  background-color: #7B68EE;
+  color: white;
+	  
+}
+
+h2{
+background-color: powderblue;
+  width: 150px;
+  border: 10px;
+  padding: 20px;
+  margin: 1px;
+  text-align: center;
+  border-radius: 15px 30px 5px 20px;
+  font-size: 15px;
+}
+h3{
+background-color: violet;
+  width: 150px;
+  border: 10px;
+  padding: 20px;
+  margin: 1px;
+  text-align: center;
+  border-radius: 15px 30px 5px 20px;
+  font-size: 15px;
+}
+div.a {
+  
+ width:50%;
+  overflow:auto;
+ 
+}
+div.a div {
+  width:30%;  
+  float:left;
+}
+img{
+
+          width: 550px;
+  height: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+
+
+}
+
+
