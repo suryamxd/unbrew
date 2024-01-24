@@ -1,9 +1,9 @@
 body{
   background-color: #7B68EE;
   color: white;
-	  
 }
 
+ 
 h2{
 background-color: powderblue;
   width: 150px;
@@ -13,6 +13,8 @@ background-color: powderblue;
   text-align: center;
   border-radius: 15px 30px 5px 20px;
   font-size: 15px;
+
+  
 }
 h3{
 background-color: violet;
@@ -37,16 +39,63 @@ div.a div {
 img{
 
           width: 550px;
-  height: 300px;
+  height: 400px;
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  top: -100;
+  right: -650;
+  bottom: -100;
   left: 0;
   margin: auto;
-
-
-
+  border-radius: 15px 15px 15px 15px;
+}
+.header {
+  overflow: hidden;
+  background-color: #7B68EE;
+  padding: 20px 10px;
+}
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.unbrew {
+  font-size: 20px;
+ 
+}
+.header a.active {
+  border-bottom: 4px solid white;
+  
+}
+.header-right {
+  float: right;
+}
+.fa {
+  padding-top: 200px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+   
+}
+.fa-twitter {
+   
+  color: white;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-instagram {
+ color: white;
 }
 
+.fa-google {
+  color: white;
+}
 
