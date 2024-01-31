@@ -1,34 +1,46 @@
 body{
   background-color: #7B68EE;
   color: white;
+  padding: 0px 150px;
+ 
+}
+h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  padding-top:  2px;
+}
+p{
+  font-family: "Roboto", sans-serif;
+  
 }
 
- 
 h2{
-background-color: powderblue;
-  width: 150px;
+background-color: #1fb6f3;
+  width: 140px;
   border: 10px;
   padding: 20px;
   margin: 1px;
   text-align: center;
   border-radius: 15px 30px 5px 20px;
   font-size: 15px;
-
+   font-family: "Roboto", sans-serif;
+  
   
 }
 h3{
-background-color: violet;
+background-color: #bc6ff1;
   width: 150px;
   border: 10px;
   padding: 20px;
   margin: 1px;
   text-align: center;
   border-radius: 15px 30px 5px 20px;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 div.a {
   
- width:50%;
+ width:60%;
   overflow:auto;
  
 }
@@ -42,8 +54,8 @@ img{
   height: 400px;
   position: fixed;
   top: -100;
-  right: -650;
-  bottom: -100;
+  right: -550;
+  bottom: -200;
   left: 0;
   margin: auto;
   border-radius: 15px 15px 15px 15px;
@@ -54,28 +66,32 @@ img{
   padding: 20px 10px;
 }
 .header a {
+
   float: left;
   color: white;
   text-align: center;
-  padding: 12px;
+  padding: 25px  20px;
   text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
+  font-size: 12px; 
+  line-height: 15px;
   border-radius: 4px;
+  font-weight: bold;
 }
 .header a.unbrew {
-  font-size: 20px;
- 
+   font-size: 25px;
+   font-family: "Roboto", sans-serif;
+   padding: 25px 0px 0px 30px;
 }
 .header a.active {
   border-bottom: 4px solid white;
-  
+  font-family: "Roboto", sans-serif;
 }
 .header-right {
   float: right;
+ font-family: "Roboto", sans-serif;
 }
 .fa {
-  padding-top: 200px;
+  padding-top: 100px;
   font-size: 30px;
   width: 30px;
   text-align: center;
